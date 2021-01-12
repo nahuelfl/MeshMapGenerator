@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1028px" preserveAspectRatio="none" style="width:1384px;height:1028px;" version="1.1" viewBox="0 0 1384 1028" width="1384px" zoomAndPan="magnify"><defs><filter height="300%" id="f10pw3j93o82xv" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f10pw3j93o82xv)" height="887.8594" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="460.5" y="50.2969"/><rect fill="#FFFFFF" filter="url(#f10pw3j93o82xv)" height="143.5313" style="stroke: #000000; stroke-width: 2.0;" width="417" x="317" y="86.4297"/><rect fill="#FFFFFF" filter="url(#f10pw3j93o82xv)" height="75.3984" style="stroke: #000000; stroke-width: 2.0;" width="320.5" x="421" y="273.0938"/><rect fill="#FFFFFF" filter="url(#f10pw3j93o82xv)" height="205.3359" style="stroke: #000000; stroke-width: 2.0;" width="959.5" x="411" y="445.8906"/><rect fill="#FFFFFF" filter="url(#f10pw3j93o82xv)" height="174.2031" style="stroke: #000000; stroke-width: 2.0;" width="939.5" x="421" y="470.0234"/><rect fill="#FFFFFF" height="85.9375" style="stroke: none; stroke-width: 1.0;" width="939.5" x="421" y="558.2891"/><rect fill="#FFFFFF" filter="url(#f10pw3j93o82xv)" height="206.6641" style="stroke: #000000; stroke-width: 2.0;" width="842.5" x="411" y="689.3594"/><rect fill="#FFFFFF" filter="url(#f10pw3j93o82xv)" height="133.3984" style="stroke: #000000; stroke-width: 2.0;" width="822.5" x="421" y="755.625"/><rect fill="#FFFFFF" height="59.1328" style="stroke: none; stroke-width: 1.0;" width="822.5" x="421" y="829.8906"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="208" x2="208" y1="40.2969" y2="985.2891"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="352" x2="352" y1="40.2969" y2="985.2891"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="465" x2="465" y1="40.2969" y2="985.2891"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="705.5" x2="705.5" y1="40.2969" y2="985.2891"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="814.5" x2="814.5" y1="40.2969" y2="985.2891"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="910.5" x2="910.5" y1="40.2969" y2="985.2891"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1026.5" x2="1026.5" y1="40.2969" y2="985.2891"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1160.5" x2="1160.5" y1="40.2969" y2="985.2891"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="1296.5" x2="1296.5" y1="40.2969" y2="985.2891"/><rect fill="#FEFECE" filter="url(#f10pw3j93o82xv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="45" x="184" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="31" x="191" y="24.9951">User</text><rect fill="#FEFECE" filter="url(#f10pw3j93o82xv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="45" x="184" y="984.2891"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="31" x="191" y="1004.2842">User</text><rect fill="#FEFECE" filter="url(#f10pw3j93o82xv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="47" x="327" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="334" y="24.9951">Main</text><rect fill="#FEFECE" filter="url(#f10pw3j93o82xv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="47" x="327" y="984.2891"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="334" y="1004.2842">Main</text><rect fill="#FEFECE" filter="url(#f10pw3j93o82xv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="65" x="431" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="51" x="438" y="24.9951">Terrain</text><rect fill="#FEFECE" filter="url(#f10pw3j93o82xv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="65" x="431" y="984.2891"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="51" x="438" y="1004.2842">Terrain</text><rect fill="#FEFECE" filter="url(#f10pw3j93o82xv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="679.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="34" x="686.5" y="24.9951">Tuile</text><rect fill="#FEFECE" filter="url(#f10pw3j93o82xv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="48" x="679.5" y="984.2891"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="34" x="686.5" y="1004.2842">Tuile</text><rect fill="#FEFECE" filter="url(#f10pw3j93o82xv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="60" x="782.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="46" x="789.5" y="24.9951">Biome</text><rect fill="#FEFECE" filter="url(#f10pw3j93o82xv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="60" x="782.5" y="984.2891"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="46" x="789.5" y="1004.2842">Biome</text><rect fill="#FEFECE" filter="url(#f10pw3j93o82xv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="105" x="856.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="91" x="863.5" y="24.9951">OceanBiome</text><rect fill="#FEFECE" filter="url(#f10pw3j93o82xv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="105" x="856.5" y="984.2891"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="91" x="863.5" y="1004.2842">OceanBiome</text><rect fill="#FEFECE" filter="url(#f10pw3j93o82xv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="99" x="975.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="85" x="982.5" y="24.9951">PlageBiome</text><rect fill="#FEFECE" filter="url(#f10pw3j93o82xv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="99" x="975.5" y="984.2891"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="85" x="982.5" y="1004.2842">PlageBiome</text><rect fill="#FEFECE" filter="url(#f10pw3j93o82xv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="141" x="1088.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="127" x="1095.5" y="24.9951">VegetationBiome</text><rect fill="#FEFECE" filter="url(#f10pw3j93o82xv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="141" x="1088.5" y="984.2891"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="127" x="1095.5" y="1004.2842">VegetationBiome</text><rect fill="#FEFECE" filter="url(#f10pw3j93o82xv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="103" x="1243.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="89" x="1250.5" y="24.9951">LagonBiome</text><rect fill="#FEFECE" filter="url(#f10pw3j93o82xv)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="103" x="1243.5" y="984.2891"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="89" x="1250.5" y="1004.2842">LagonBiome</text><rect fill="#FFFFFF" filter="url(#f10pw3j93o82xv)" height="887.8594" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="460.5" y="50.2969"/><polygon fill="#A80036" points="340.5,67.4297,350.5,71.4297,340.5,75.4297,344.5,71.4297" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="208.5" x2="346.5" y1="71.4297" y2="71.4297"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="120" x="215.5" y="66.3638">main(string[] args)</text><path d="M317,86.4297 L729,86.4297 L729,93.4297 L719,103.4297 L317,103.4297 L317,86.4297 " fill="#EEEEEE" style="stroke: #000000; stroke-width: 1.0;"/><rect fill="none" height="143.5313" style="stroke: #000000; stroke-width: 2.0;" width="417" x="317" y="86.4297"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="367" x="332" y="99.4966">prépare les settings de base du mesh à produire</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="352.5" x2="394.5" y1="124.6953" y2="124.6953"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="394.5" x2="394.5" y1="124.6953" y2="137.6953"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="353.5" x2="394.5" y1="137.6953" y2="137.6953"/><polygon fill="#A80036" points="363.5,133.6953,353.5,137.6953,363.5,141.6953,359.5,137.6953" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="70" x="359.5" y="119.6294">configure()</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="352.5" x2="394.5" y1="166.8281" y2="166.8281"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="394.5" x2="394.5" y1="166.8281" y2="179.8281"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="353.5" x2="394.5" y1="179.8281" y2="179.8281"/><polygon fill="#A80036" points="363.5,175.8281,353.5,179.8281,363.5,183.8281,359.5,179.8281" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="49" x="359.5" y="161.7622">enrich()</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="352.5" x2="394.5" y1="208.9609" y2="208.9609"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="394.5" x2="394.5" y1="208.9609" y2="221.9609"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="353.5" x2="394.5" y1="221.9609" y2="221.9609"/><polygon fill="#A80036" points="363.5,217.9609,353.5,221.9609,363.5,225.9609,359.5,221.9609" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="359.5" y="203.895">process()</text><polygon fill="#A80036" points="448.5,254.0938,458.5,258.0938,448.5,262.0938,452.5,258.0938" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="352.5" x2="454.5" y1="258.0938" y2="258.0938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="76" x="359.5" y="253.0278">new Terrain</text><path d="M421,273.0938 L499,273.0938 L499,280.0938 L489,290.0938 L421,290.0938 L421,273.0938 " fill="#EEEEEE" style="stroke: #000000; stroke-width: 1.0;"/><rect fill="none" height="75.3984" style="stroke: #000000; stroke-width: 2.0;" width="320.5" x="421" y="273.0938"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="33" x="436" y="286.1606">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="177" x="514" y="285.3042">[getPolygonsCount times]</text><polygon fill="#A80036" points="693.5,307.3594,703.5,311.3594,693.5,315.3594,697.5,311.3594" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="470.5" x2="699.5" y1="311.3594" y2="311.3594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="71" x="477.5" y="306.2935">new Tuile()</text><polygon fill="#A80036" points="481.5,336.4922,471.5,340.4922,481.5,344.4922,477.5,340.4922" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="475.5" x2="704.5" y1="340.4922" y2="340.4922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="30" x="487.5" y="335.4263">Tuile</text><polygon fill="#A80036" points="363.5,385.1914,353.5,389.1914,363.5,393.1914,359.5,389.1914" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="357.5" x2="459.5" y1="389.1914" y2="389.1914"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="42" x="369.5" y="384.1255">terrain</text><path d="M5,360.4922 L5,400.4922 L344,400.4922 L344,370.4922 L334,360.4922 L5,360.4922 " fill="#FBFB77" filter="url(#f10pw3j93o82xv)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M334,360.4922 L334,370.4922 L344,370.4922 L334,360.4922 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="254" x="11" y="377.5591">un terrain avec toutes les infos de base</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="318" x="11" y="392.6919">necessaires à l'écriture de celuidans un file .mesh</text><polygon fill="#A80036" points="448.5,426.8906,458.5,430.8906,448.5,434.8906,452.5,430.8906" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="352.5" x2="454.5" y1="430.8906" y2="430.8906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="84" x="359.5" y="425.8247">shape = atoll</text><path d="M411,445.8906 L489,445.8906 L489,452.8906 L479,462.8906 L411,462.8906 L411,445.8906 " fill="#EEEEEE" style="stroke: #000000; stroke-width: 1.0;"/><rect fill="none" height="205.3359" style="stroke: #000000; stroke-width: 2.0;" width="959.5" x="411" y="445.8906"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="33" x="426" y="458.9575">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="177" x="504" y="458.1011">[getPolygonsCount times]</text><path d="M421,470.0234 L487,470.0234 L487,477.0234 L477,487.0234 L421,487.0234 L421,470.0234 " fill="#EEEEEE" style="stroke: #000000; stroke-width: 1.0;"/><rect fill="none" height="174.2031" style="stroke: #000000; stroke-width: 2.0;" width="939.5" x="421" y="470.0234"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="21" x="436" y="483.0903">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="257" x="502" y="482.2339">[distance par rapport au centre &gt;= r2]</text><polygon fill="#A80036" points="693.5,504.2891,703.5,508.2891,693.5,512.2891,697.5,508.2891" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="470.5" x2="699.5" y1="508.2891" y2="508.2891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="182" x="477.5" y="503.2231">setBiome(new OceanBiome)</text><polygon fill="#A80036" points="899,518.2891,909,522.2891,899,526.2891,903,522.2891" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="705.5" x2="905" y1="522.2891" y2="522.2891"/><polygon fill="#A80036" points="716.5,532.2891,706.5,536.2891,716.5,540.2891,712.5,536.2891" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="710.5" x2="910" y1="536.2891" y2="536.2891"/><polygon fill="#A80036" points="481.5,546.2891,471.5,550.2891,481.5,554.2891,477.5,550.2891" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="475.5" x2="704.5" y1="550.2891" y2="550.2891"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="421" x2="1360.5" y1="559.2891" y2="559.2891"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="257" x="426" y="569.4995">[distance par rapport au centre &lt;= r1]</text><polygon fill="#A80036" points="693.5,590.2266,703.5,594.2266,693.5,598.2266,697.5,594.2266" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="470.5" x2="699.5" y1="594.2266" y2="594.2266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="180" x="477.5" y="589.1606">setBiome(new LagonBiome)</text><polygon fill="#A80036" points="1285,604.2266,1295,608.2266,1285,612.2266,1289,608.2266" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="705.5" x2="1291" y1="608.2266" y2="608.2266"/><polygon fill="#A80036" points="716.5,618.2266,706.5,622.2266,716.5,626.2266,712.5,622.2266" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="710.5" x2="1296" y1="622.2266" y2="622.2266"/><polygon fill="#A80036" points="481.5,632.2266,471.5,636.2266,481.5,640.2266,477.5,636.2266" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="475.5" x2="704.5" y1="636.2266" y2="636.2266"/><path d="M411,689.3594 L477,689.3594 L477,696.3594 L467,706.3594 L411,706.3594 L411,689.3594 " fill="#EEEEEE" style="stroke: #000000; stroke-width: 1.0;"/><rect fill="none" height="206.6641" style="stroke: #000000; stroke-width: 2.0;" width="842.5" x="411" y="689.3594"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="21" x="426" y="702.4263">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="310" x="492" y="701.5698">[tuile.getBiome != LagonBiome | OceanBiome]</text><line style="stroke: #A80036; stroke-width: 1.0;" x1="705.5" x2="747.5" y1="727.625" y2="727.625"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="747.5" x2="747.5" y1="727.625" y2="740.625"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="706.5" x2="747.5" y1="740.625" y2="740.625"/><polygon fill="#A80036" points="716.5,736.625,706.5,740.625,716.5,744.625,712.5,740.625" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="95" x="712.5" y="722.5591">trouver voisins</text><path d="M421,755.625 L487,755.625 L487,762.625 L477,772.625 L421,772.625 L421,755.625 " fill="#EEEEEE" style="stroke: #000000; stroke-width: 1.0;"/><rect fill="none" height="133.3984" style="stroke: #000000; stroke-width: 2.0;" width="822.5" x="421" y="755.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="21" x="436" y="768.6919">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="256" x="502" y="767.8354">[voisins != LagonBiome | OceanBiome]</text><polygon fill="#A80036" points="693.5,789.8906,703.5,793.8906,693.5,797.8906,697.5,793.8906" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="470.5" x2="699.5" y1="793.8906" y2="793.8906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="211" x="477.5" y="788.8247">setBiome(new VegetationBiome)</text><polygon fill="#A80036" points="1149,803.8906,1159,807.8906,1149,811.8906,1153,807.8906" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="705.5" x2="1155" y1="807.8906" y2="807.8906"/><polygon fill="#A80036" points="716.5,817.8906,706.5,821.8906,716.5,825.8906,712.5,821.8906" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="710.5" x2="1160" y1="821.8906" y2="821.8906"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;" x1="421" x2="1243.5" y1="830.8906" y2="830.8906"/><polygon fill="#A80036" points="693.5,849.0234,703.5,853.0234,693.5,857.0234,697.5,853.0234" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="470.5" x2="699.5" y1="853.0234" y2="853.0234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="176" x="477.5" y="847.9575">setBiome(new PlageBiome)</text><polygon fill="#A80036" points="1015,863.0234,1025,867.0234,1015,871.0234,1019,867.0234" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="705.5" x2="1021" y1="867.0234" y2="867.0234"/><polygon fill="#A80036" points="716.5,877.0234,706.5,881.0234,716.5,885.0234,712.5,881.0234" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="710.5" x2="1026" y1="881.0234" y2="881.0234"/><polygon fill="#A80036" points="481.5,905.0234,471.5,909.0234,481.5,913.0234,477.5,909.0234" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="475.5" x2="704.5" y1="909.0234" y2="909.0234"/><polygon fill="#A80036" points="363.5,934.1563,353.5,938.1563,363.5,942.1563,359.5,938.1563" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="357.5" x2="464.5" y1="938.1563" y2="938.1563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="70" x="369.5" y="933.0903">atoll coloré</text><polygon fill="#A80036" points="219.5,963.2891,209.5,967.2891,219.5,971.2891,215.5,967.2891" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="213.5" x2="351.5" y1="967.2891" y2="967.2891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="93" x="225.5" y="962.2231">File &lt;x&gt;.mesh</text><!--MD5=[8a19a029759cd2ea29c0744e07ca3e1b]
+@startuml
+participant User
+participant Main
+participant Terrain
+participant Tuile
+participant Biome
+participant OceanBiome
+participant PlageBiome
+participant VegetationBiome
+participant LagonBiome
+
+/' Initialisation du processus de creation de terrain'/
+User -> Main: main(string[] args)
+group prépare les settings de base du mesh à produire
+    Main -> Main: configure()
+    Main -> Main: enrich()
+    Main -> Main: process()
+end group
+
+/'Création un terrain avec X tuile, selon la hauteur et largeur'/
+Main -> Terrain: new Terrain
+loop getPolygonsCount times
+    Terrain -> Tuile: new Tuile()
+    Tuile -> Terrain: Tuile
+end loop
+
+/'Un terrain vierge, sans forme pour l'isntant '/
+activate Terrain
+Terrain -> Main: terrain
+note left
+    un terrain avec toutes les infos de base
+    necessaires à l'écriture de celuidans un file .mesh
+end note
+
+/'Précision du contenu du terrain'/
+Main -> Terrain: shape = atoll
+loop getPolygonsCount times
+    alt distance par rapport au centre >= r2
+        Terrain -> Tuile: setBiome(new OceanBiome)
+        Tuile -> OceanBiome
+        OceanBiome -> Tuile
+        Tuile -> Terrain
+    else distance par rapport au centre <= r1
+        Terrain -> Tuile: setBiome(new LagonBiome)
+        Tuile -> LagonBiome
+        LagonBiome -> Tuile
+        Tuile -> Terrain
+    end
+end
+loop getPolygonsCount times
+    alt tuile.getBiome != LagonBiome | OceanBiome
+        Tuile -> Tuile: trouver voisins
+        alt voisins != LagonBiome | OceanBiome
+            Terrain -> Tuile: setBiome(new VegetationBiome)
+            Tuile -> VegetationBiome
+            VegetationBiome -> Tuile
+        else
+            Terrain -> Tuile: setBiome(new PlageBiome)
+            Tuile -> PlageBiome
+            PlageBiome -> Tuile
+    end
+end loop
+Tuile -> Terrain
+Terrain -> Main: atoll coloré
+deactivate Terrain
+Main -> User: File <x>.mesh
+@enduml
+
+@startuml
+participant User
+participant Main
+participant Terrain
+participant Tuile
+participant Biome
+participant OceanBiome
+participant PlageBiome
+participant VegetationBiome
+participant LagonBiome
+
+User -> Main: main(string[] args)
+group prépare les settings de base du mesh à produire
+    Main -> Main: configure()
+    Main -> Main: enrich()
+    Main -> Main: process()
+end group
+
+Main -> Terrain: new Terrain
+loop getPolygonsCount times
+    Terrain -> Tuile: new Tuile()
+    Tuile -> Terrain: Tuile
+end loop
+
+activate Terrain
+Terrain -> Main: terrain
+note left
+    un terrain avec toutes les infos de base
+    necessaires à l'écriture de celuidans un file .mesh
+end note
+
+Main -> Terrain: shape = atoll
+loop getPolygonsCount times
+    alt distance par rapport au centre >= r2
+        Terrain -> Tuile: setBiome(new OceanBiome)
+        Tuile -> OceanBiome
+        OceanBiome -> Tuile
+        Tuile -> Terrain
+    else distance par rapport au centre <= r1
+        Terrain -> Tuile: setBiome(new LagonBiome)
+        Tuile -> LagonBiome
+        LagonBiome -> Tuile
+        Tuile -> Terrain
+    end
+end
+loop getPolygonsCount times
+    alt tuile.getBiome != LagonBiome | OceanBiome
+        Tuile -> Tuile: trouver voisins
+        alt voisins != LagonBiome | OceanBiome
+            Terrain -> Tuile: setBiome(new VegetationBiome)
+            Tuile -> VegetationBiome
+            VegetationBiome -> Tuile
+        else
+            Terrain -> Tuile: setBiome(new PlageBiome)
+            Tuile -> PlageBiome
+            PlageBiome -> Tuile
+    end
+end loop
+Tuile -> Terrain
+Terrain -> Main: atoll coloré
+deactivate Terrain
+Main -> User: File <x>.mesh
+@enduml
+
+PlantUML version 1.2020.20beta11(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

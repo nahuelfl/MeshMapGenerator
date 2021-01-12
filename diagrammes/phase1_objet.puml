@@ -1,0 +1,128 @@
+@startuml
+
+object "_ : GestionJaugeSanitaire" as GestionJaugeSanitaire{
+float = 0.9
+}
+
+object "_: CatalogueDesSalles" as CatalogueDesSalles{
+    nombreSallesDispos = 5
+}
+
+object "_: CommandeDeCours" as CommandeDeCours
+
+object "_: Facade" as Facade
+
+object "_: Reservation" as Reservation
+
+object "_: Reservation" as Reservation2
+
+object "_: ClasseVirtuelle" as ClasseVirtuelle{
+    capacite = "500"
+    disponible = true
+    lieuDeCours = "ABCD@zoom.ca"
+}
+
+object "_: ClassePhysique" as ClassePhysique{
+    capacite = "500"
+    disponible = true
+    lieuDeCours = "ABC-120"
+}
+
+
+object "_ : Simulation" as Simulation
+
+object "_ : CoursEnLigne" as CoursEnLigne{
+    nombreEtudiants = 50
+    urlZom = "ABCD@zoom.ca"
+}
+
+object "_ : CoursPresentiel" as CoursPresentiel{
+    nombreEtudiants = 30
+    numeroLocal = "ABC-120"
+}
+
+object "_: CoursPresentiel" as CoursPresentiel2{
+    nombreEtudiants = 120
+    numeroLocal = "AAA-220"
+}
+
+object "_: CoursPresentiel" as CoursPresentiel3{
+    nombreEtudiants = 20
+    numeroLocal = "BBB-210"
+}
+
+object "_: CoursPresentiel" as CoursPresentiel4{
+    nombreEtudiants = 15
+    numeroLocal = "CCC-230"
+}
+
+object "_: Laboratoire" as Laboratoire{
+    capacite = 23
+}
+
+object "_: SalleDePresse" as SalleDePresse{
+    capacite = 25
+}
+
+object "_: Theatre" as Theatre{
+    capacite = 500
+}
+
+object "_: SalleAudioVisuelle" as SalleAudioVisuelle{
+    capacite = 100
+}
+
+object "_: Horaire" as Horaire{
+ MATIN
+}
+
+object "_: Horaire" as Horaire2{
+ APRÈS-MIDI
+}
+
+object "_: Horaire" as Horaire3{
+ SOIR
+}
+
+object "_: Horaire" as Horaire4{
+ MATIN
+}
+
+object "_: Horaire" as Horaire5{
+ APRÈS-MIDI
+}
+
+Simulation --> GestionJaugeSanitaire
+Simulation --> Reservation
+Simulation --> Reservation2
+
+Reservation --> ClassePhysique
+Reservation --> CoursPresentiel
+Reservation --> Horaire
+
+Reservation2 --> ClasseVirtuelle
+Reservation2 --> CoursEnLigne
+Reservation2 --> Horaire2
+
+ClassePhysique --> Theatre
+
+Facade -> Simulation
+Facade --> CatalogueDesSalles
+Facade --> CommandeDeCours
+CommandeDeCours --> CoursEnLigne
+CommandeDeCours --> CoursPresentiel
+CommandeDeCours --> CoursPresentiel2
+CommandeDeCours --> CoursPresentiel3
+CommandeDeCours --> CoursPresentiel4
+CoursPresentiel --> Theatre
+CoursPresentiel --> Horaire
+CoursPresentiel2 --> SalleAudioVisuelle
+CoursPresentiel2 --> Horaire3
+CoursPresentiel3 --> SalleDePresse
+CoursPresentiel3 --> Horaire4
+CoursPresentiel4 --> Laboratoire
+CoursPresentiel4 --> Horaire5
+CoursEnLigne --> Horaire2
+CatalogueDesSalles --> ClasseVirtuelle
+CatalogueDesSalles --> ClassePhysique
+@enduml

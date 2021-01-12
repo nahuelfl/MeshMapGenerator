@@ -1,0 +1,72 @@
+@startuml
+participant Simulation
+participant Facade
+participant CommandeDeCours
+participant CatalogueDesSalles
+
+--> Simulation : simulerRupture()
+activate Simulation
+    Simulation -> Facade : getCoursEtSallesCompatibles()
+    activate Facade
+        loop Pour chaque cours
+            Facade -> CommandeDeCours : getCours()
+            activate CommandeDeCours
+                CommandeDeCours --> Facade
+            deactivate
+
+            Facade -> CatalogueDesSalles: findSalle(TypeSalle)
+            activate CatalogueDesSalles
+            loop Pour chaque ClassePhysique dans CatalogueDesSalles
+
+                    CatalogueDesSalles -> ClassePhysique: getTypeDeSalle()
+
+                    activate ClassePhysique
+                    ClassePhysique --> CatalogueDesSalles
+                    alt TypeDeSalle du CoursPrésentiel correspond au TypeDeSalle de la ClassePhysique
+                        ClassePhysique --> CatalogueDesSalles: ClassePhysique
+                    else Pas compatible
+                        ClassePhysique --> CatalogueDesSalles: répéter processus
+                    deactivate
+                    end
+
+            end
+                CatalogueDesSalles --> Facade: ClassePhysique
+                deactivate
+
+        end
+
+        Facade --> Simulation : List<Cours, SalleDeClasse>
+        deactivate
+
+    ... Après que les réservations aient déjà été crées avec des salles et des cours compatibles suivant un processus plus détaillé que la version brève montrée ci-haut ...
+
+    --> Simulation : simulerRupture()
+    note left of Simulation
+    Création Liste associant
+    CapacitesEtNbEtudiants
+    pour chaque reservation
+    end note
+    loop pour chaque Reservation
+    Simulation -> Reservation: getCapacite()
+    activate Reservation
+            Reservation --> Simulation: int capacite
+            Simulation -> Reservation: getNombreEtudiants()
+            Reservation -> Cours : getNombreEtudiants()
+            activate Cours
+                Cours --> Reservation : int nbEtudiants
+            deactivate
+            Reservation --> Simulation: int nbEtudiants
+    deactivate
+
+    Simulation -> Simulation: ajoutListeCapacitesNbEtudiants(capacite, nbEtudiants)
+    end
+
+    loop pour chaque element dans listeCapacitesNbEtudiants
+        alt si capacite * jauge >= nb Etudiants
+        Simulation -> Simulation : augmenterJauge()
+        else
+            <-- Simulation: jaugeMaximale
+
+        end
+    end
+@enduml

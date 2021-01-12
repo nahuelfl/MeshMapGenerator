@@ -1,0 +1,33 @@
+@startuml
+participant GestionDépartamentale
+participant CommandeDeCours
+participant CoursPresentielBuilder
+
+group Ajout horaire en même temps que construction du Cours
+GestionDépartamentale -> CommandeDeCours : ajoutCours(CoursPresentielBuilder)
+    activate CommandeDeCours
+        CommandeDeCours -> CoursPresentielBuilder : ajoutHoraire(Horaire)
+
+        activate CoursPresentielBuilder
+            create Horaire
+            CoursPresentielBuilder -> Horaire : new()
+            Horaire --> CoursPresentielBuilder
+            CoursPresentielBuilder --> CommandeDeCours
+        deactivate
+    ... Ajout des autres composantes au besoin ...
+
+    CommandeDeCours -> CoursPresentielBuilder: build()
+        activate CoursPresentielBuilder
+            create CoursPresentiel
+            CoursPresentielBuilder -> CoursPresentiel: setHoraire(horaire)
+            ... Set des autres composantes au besoin ...
+            CoursPresentiel --> CoursPresentielBuilder : cours
+            CoursPresentielBuilder --> CommandeDeCours : cours
+        deactivate
+    CommandeDeCours --> GestionDépartamentale : cours
+    deactivate
+    ...
+end
+...
+
+@enduml

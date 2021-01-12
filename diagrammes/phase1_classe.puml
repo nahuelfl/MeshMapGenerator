@@ -1,0 +1,203 @@
+@startuml
+
+
+class GestionJaugeSanitaire
+{
+    - float jauge
+    --
+    + {method} setJauge(float jauge)
+}
+
+class Simulation
+{
+    - float jaugeMaximale
+    --
+    + {method} associerSelonHoraire() : Reservation
+    + {method} simuler() : List<Reservation>
+    + {method} simulerRupture() : float
+    + {method} augmenterJauge()
+}
+
+class Facade
+{
+    + {method} getCoursEtSallesCompatibles() : List<Cours, SalleDeClasse>
+}
+
+class Reservation
+{
+    - Cours cours
+    - SalleDeClasse salle
+    - Horaire horaire
+    --
+    + getCapacite()
+    + getNombreEtudiants()
+}
+
+Reservation <- Simulation
+Simulation --> Facade
+
+Facade .. CommandeDeCours
+Facade .. CatalogueDesSalles
+
+Simulation -> GestionJaugeSanitaire
+
+class GestionAdministrative
+{
+    + {method} initCatalogue()
+}
+
+class CatalogueDesSalles
+{
+    - int nombreSallesDispos
+    --
+    + {method} ajoutSalle(int capacite, true)
+}
+
+abstract class SalleDeClasse
+{
+    - int capacite
+    - boolean disponible
+    - String lieuDeCours
+    --
+    + {method} getCapacite()
+}
+
+class ClasseVirtuelle
+{
+    - String lieuDeCours
+    --
+    + {method} getCapacite()
+    - {method} initZoomClass() : String
+}
+
+note bottom of ClasseVirtuelle : Capacité illimitée et toujours disponible.
+
+class ClassePhysique
+{
+    - String lieuDeCours
+    - boolean disponible
+    --
+    + {method} getCapacite(TypeDeSalle)
+}
+
+class GestionDepartementale
+{
+     + {method} modifCours(Cours)
+     + {method} modifSpecification(TypeDeSalle)
+     + {method} modifHoraire(Horaire)
+     + {method} finCommande()
+}
+
+class CommandeDeCours <<Director>>
+{
+    + {method}  <<construct>> ajoutCours(ModeEnseignement) : Cours
+}
+
+interface CoursBuilder <<Interface>>
+{
+    + {method} ajoutHoraire(Horaire)
+    + {method} result() : Cours
+}
+
+class CoursEnLigneBuilder <<ConcreteBuilder>>
+{
+    + {method} ajoutHoraire(Horaire)
+    + {method} result() : Cours
+}
+
+class CoursPresentielBuilder <<ConcreteBuilder>>
+{
+    + {method} ajoutSpecification(TypeDeSalle)
+    + {method} ajoutHoraire(Horaire)
+    + {method} result() : Cours
+}
+
+interface Cours <<Product>>
+{
+    + {method} getNombreEtudiants()
+    + {method} getHoraire()
+    + {method} setHoraire()
+}
+
+class CoursEnLigne
+{
+    - int nombreEtudiants
+    - String urlZoom
+    --
+    + {method} CoursEnLigne()
+    --
+    + {method} getNombreEtudiants()
+}
+
+class CoursPresentiel
+{
+    - int nombreEtudiants
+    - String numeroLocal
+    --
+    + {method} CoursEnPresentiel()
+    --
+    + {method} getNombreEtudiants()
+}
+
+GestionDepartementale "1" *--> "*" CommandeDeCours
+CommandeDeCours *--> CoursBuilder : 1 builder
+Cours . CoursBuilder
+CoursEnLigne .> Cours
+CoursPresentiel .> Cours
+CoursEnLigneBuilder .. CoursEnLigne
+CoursPresentielBuilder .. CoursPresentiel
+CoursBuilder <|.. CoursEnLigneBuilder
+CoursBuilder <|.. CoursPresentielBuilder
+CoursPresentiel "1" *--> "1" TypeDeSalle
+
+Horaire "1" *-> "1" Cours
+
+
+abstract class TypeDeSalle
+{
+  - int capacite
+}
+
+class SalleAudiovisuelle
+{
+    - int capacite
+}
+
+class Laboratoire
+{
+    - int capacite
+}
+
+class SalleDePresse
+{
+    - int capacite
+}
+
+class Theatre
+{
+    - int capacite
+}
+
+enum Horaire
+{
+    MATIN
+    APRÈS-MIDI
+    SOIR
+}
+
+
+GestionAdministrative "1" *--> "1" CatalogueDesSalles
+CatalogueDesSalles "1" *--> "*" SalleDeClasse
+SalleDeClasse <|-- ClasseVirtuelle
+SalleDeClasse <|-- ClassePhysique
+TypeDeSalle <|-- Theatre
+TypeDeSalle <|-- SalleDePresse
+TypeDeSalle <|-- Laboratoire
+TypeDeSalle <|-- SalleAudiovisuelle
+TypeDeSalle "1" <--* "1" ClassePhysique
+
+
+
+
+
+@enduml
